@@ -1,6 +1,8 @@
 
 def calc(s):
-    return int(s)
+    print ('s=', s)
+    nums = map(int, s.split('+'))
+    print('nums=',nums)
+    return sum(nums)
 
-print (calc("1"))
-
+    print(clac("1+2"))
