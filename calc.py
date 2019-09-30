@@ -5,4 +5,4 @@ def calc(s):
     print('nums=',nums)
     return sum(nums)
 
-    print(clac("1+2"))
+print(clac("1+2"))
