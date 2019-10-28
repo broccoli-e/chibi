@@ -11,6 +11,6 @@ s="123+456"
 pos = s.find('+')
 print('pos', pos)
 
-s1 = s[0:paos]
+s1 = s[0:pos]
 s2 = s[pos+1:]
 print(s, s1, s2)
