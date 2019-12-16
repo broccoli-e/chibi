@@ -108,4 +108,4 @@ def main():
     except EOFError:
         return
 if __name__ == '__main__':
-    main()
+    main ()
